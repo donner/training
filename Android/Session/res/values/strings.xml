@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, MainActivity!</string>
+	<string name="back">Go Back!</string>
+	<string name="app_name">Session1</string>
+	<string name="startActivity">startActivity</string>
+	<string name="startActivityForResult">startActivityForResult</string>
+	<string name="name"> 姓名
+	</string>
+	<string name="gender"> 性别
+	</string>
+	<string name="age"> 年龄
+	</string>
+	<string name="phonenum">
+		电话
+	</string>
+	<string name="gender1">
+		男
+	</string>
+	<string name="gender2">
+		女
+	</string>
+	<string name="name1"> 张三
+	</string>
+	<string name="age1">
+		25
+	</string>
+	<string name="phonenum1">
+		1234567
+	</string>
+	<string name="name2"> 李四
+	</string>
+	<string name="age2">
+		24
+	</string>
+	<string name="phonenum2"> 7654321 </string>
+	<string name="long_txt">左边那条黑色线代表图片垂直拉伸的区域，上边的那条黑色线代表水平拉伸区域，右边的黑色线代表内容绘制的垂直区域</string>
+</resources>
