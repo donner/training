@@ -20,10 +20,9 @@ public class MainActivity extends Activity implements OnClickListener,
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
-		
-		
-		findViewById(R.id.button1).setOnClickListener(this);
-		findViewById(R.id.button2).setOnClickListener(this);
+
+		findViewById(R.id.activity_intent).setOnClickListener(this);
+		findViewById(R.id.control).setOnClickListener(this);
 		findViewById(R.id.button3).setOnClickListener(this);
 		findViewById(R.id.button4).setOnClickListener(this);
 		findViewById(R.id.button5).setOnClickListener(this);
@@ -36,7 +35,7 @@ public class MainActivity extends Activity implements OnClickListener,
 		for (String s : strings) {
 			Log.d("example", s);
 		}
-		
+
 		findViewById(R.id.imageView1).setOnTouchListener(this);
 	}
 
@@ -58,9 +57,12 @@ public class MainActivity extends Activity implements OnClickListener,
 		// TODO Auto-generated method stub
 		Intent intent = null;
 		switch (v.getId()) {
-		case R.id.button1:
-			intent = new Intent(MainActivity.this, SubActivity.class);
-			intent.putExtra("Msg", "startActivity from MainActivity!");
+		case R.id.activity_intent:
+			intent = new Intent(MainActivity.this, ActivityIntent.class);
+			startActivity(intent);
+			break;
+		case R.id.control:
+			intent = new Intent(MainActivity.this, ControlActivity.class);
 			startActivity(intent);
 			break;
 		case R.id.button2:
@@ -125,13 +127,13 @@ public class MainActivity extends Activity implements OnClickListener,
 	public boolean onTouch(View v, MotionEvent event) {
 		// TODO Auto-generated method stub
 		switch (event.getAction()) {
-		case MotionEvent.ACTION_DOWN: 
+		case MotionEvent.ACTION_DOWN:
 			Log.d("example", "ACTION_DOWN");
 			break;
-		case MotionEvent.ACTION_MOVE: 
+		case MotionEvent.ACTION_MOVE:
 			Log.d("example", "ACTION_MOVE");
 			break;
-		case MotionEvent.ACTION_UP: 
+		case MotionEvent.ACTION_UP:
 			Log.d("example", "ACTION_UP");
 			break;
 		}

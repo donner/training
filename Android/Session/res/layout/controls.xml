@@ -5,58 +5,52 @@
     android:orientation="vertical" >
 
     <Button
-        android:id="@+id/activity_intent"
+        android:id="@+id/back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@+string/activity_intent" >
+        android:text="@+string/back" >
     </Button>
 
     <Button
-        android:id="@+id/control"
+        android:id="@+id/text_control"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@+string/ui_control" >
+        android:text="@+string/text_control" >
     </Button>
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/date_control"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@+string/table_layout" >
+        android:text="@+string/date_control" >
     </Button>
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/list_control"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@+string/relative_layout" >
+        android:text="@+string/list_control" >
     </Button>
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/grid_control"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Handler" >
+        android:text="@+string/grid_control" >
     </Button>
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/spinner_control"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Processbar" >
+        android:text="@+string/spinner_control" >
     </Button>
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/gallery_control"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Broadcast" >
+        android:text="@+string/gallery_control" >
     </Button>
-
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/avatar" />
 
 </LinearLayout>
