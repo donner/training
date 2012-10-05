@@ -31,6 +31,7 @@ public final class R {
     }
     public static final class id {
         public static final int activity_intent=0x7f08000f;
+        public static final int autoCompleteTextView1=0x7f08001d;
         public static final int back=0x7f080001;
         public static final int bar=0x7f08000a;
         public static final int button1=0x7f080002;
@@ -42,11 +43,18 @@ public final class R {
         public static final int button7=0x7f080015;
         public static final int control=0x7f080010;
         public static final int date_control=0x7f080005;
+        public static final int editText1=0x7f080017;
+        public static final int editText2=0x7f080018;
+        public static final int editText4=0x7f080019;
+        public static final int editText5=0x7f08001a;
+        public static final int editText6=0x7f08001b;
+        public static final int editText7=0x7f08001c;
         public static final int endButton=0x7f08000c;
         public static final int gallery_control=0x7f080009;
         public static final int grid_control=0x7f080007;
         public static final int imageView1=0x7f080016;
         public static final int list_control=0x7f080006;
+        public static final int multiAutoCompleteTextView1=0x7f08001e;
         public static final int relativeview=0x7f08000d;
         public static final int spinner_control=0x7f080008;
         public static final int startButton=0x7f08000b;
@@ -64,6 +72,7 @@ public final class R {
         public static final int layout_table=0x7f030006;
         public static final int main=0x7f030007;
         public static final int sub=0x7f030008;
+        public static final int text_control=0x7f030009;
     }
     public static final class string {
         public static final int activity_intent=0x7f070018;

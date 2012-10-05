@@ -14,6 +14,7 @@ public class ControlActivity extends Activity implements OnClickListener {
 		setContentView(R.layout.controls);
 
 		findViewById(R.id.back).setOnClickListener(this);
+		findViewById(R.id.text_control).setOnClickListener(this);
 	}
 
 	public void onClick(View v) {
@@ -22,7 +23,13 @@ public class ControlActivity extends Activity implements OnClickListener {
 		case R.id.back:
 			setResult(RESULT_OK, intent);
 			finish();
+			break;
+		case R.id.text_control:
+			intent = new Intent(ControlActivity.this, TextControlActivity.class); 
+			startActivity(intent);
+			break;
 		}
+		
 	}
 
 }
