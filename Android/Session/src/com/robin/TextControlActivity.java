@@ -1,7 +1,6 @@
 package com.robin;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.text.util.Linkify;
 import android.view.View;
@@ -61,8 +60,7 @@ public class TextControlActivity extends Activity implements OnClickListener {
 	}
 	
 	public void onClick(View v) {
-		// TODO Auto-generated method stub
-		Intent intent = null;
+		// TODO Auto-generated method stub 
 		switch (v.getId()) { 
 		 
 		}
